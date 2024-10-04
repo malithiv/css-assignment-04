@@ -1,0 +1,37 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid deepskyblue;
+    border-radius: 100%;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+
+    position: absolute;
+
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+    overflow: hidden;
+
+
+}
+
+@keyframes anime {
+
+    from{
+        width: 100px;
+        height: 100px;
+    }to{
+        width: 300px;
+        height: 300px;
+         opacity: 0%;
+
+    }
+}

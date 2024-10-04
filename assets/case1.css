@@ -1,0 +1,32 @@
+div{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 30px 0;
+    position: relative;
+    left: -220px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+div>h3{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    bottom: 50%;
+}
+
+div>span{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    bottom: 50%;
+}
+
+div:hover{
+    left: 0;
+}
